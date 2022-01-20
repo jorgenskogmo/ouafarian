@@ -1,0 +1,37 @@
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: normal;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+}
+
+a:link        { color: #FFF; text-decoration: none;}
+a:visited     { color: #FFF; text-decoration: none;}
+a:hover       { color: #FFF; text-decoration: underline;}
+
+.ME {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF9900;
+}
+.menuLink {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: "right";
+	
+}
+.menuLinkSml {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: "right";
+}
+

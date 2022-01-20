@@ -1,0 +1,19 @@
+{
+  "name": "ouafa-rian-dk",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^6.0.0",
+    "globby": "^12.2.0",
+    "mkdirp": "^1.0.4",
+    "recursive-copy": "^2.0.13"
+  }
+}

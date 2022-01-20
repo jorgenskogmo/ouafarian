@@ -1,0 +1,29 @@
+
+<!-- pagebottom -->
+            </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- menu script -->
+<script>
+    
+    let page = ''
+    if( window.location.pathname != '' ){
+        page = window.location.pathname.substring(1)
+    }
+
+    if( page != '' ){
+        document.querySelector(`[data-page="${page}"]`).style.textDecoration = "underline";
+    }
+
+    const pagesInSubmenu = ["inspiration", "kollegaer", "anbefalinger", "citater", "engle", "laerlev", "links", "litmusik", "liv", "sikkerhed", "space", "spiritualitet", "thethird", "trancendens"];
+
+    if( pagesInSubmenu.includes(page) ){
+        document.querySelector(`[data-page="inspiration-items"]`).style.display = 'table-row'
+    }else{
+        document.querySelector(`[data-page="inspiration-items"]`).style.display = 'none'
+    }
+
+</script>

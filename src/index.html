@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ouafa Rian : rian.dk</title>
+  </head>
+  <body>
+	  <script>
+		// left for compatibility with existing site and bookmarks...
+		let page = ''
+		if( window.location.search != '' ){
+			let pair = window.location.search.substring(1).split(/=/g)
+			if( pair[0] === 'page' ){
+				page = pair[1]
+			}
+		}
+
+		if( page === '' ){
+			window.location.href = 'touch.html'
+		}else{
+			window.location.href = `${page}.html`
+		}
+
+	  </script>
+  </body>
+</html>
