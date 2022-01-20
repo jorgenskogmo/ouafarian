@@ -5,7 +5,7 @@ import copy from 'recursive-copy';
 import del from 'del';
 import { basename, resolve } from 'path';
 
-const dest = 'dist'
+const dest = 'docs'
 
 const header = readFileSync('src/tpl/header.tpl.html').toString()
 const footer = readFileSync('src/tpl/footer.tpl.html').toString()
